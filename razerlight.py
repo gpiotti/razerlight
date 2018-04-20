@@ -28,7 +28,7 @@ def get_screenshot():
     saveDC = mfcDC.CreateCompatibleDC()
      
     saveBitMap = win32ui.CreateBitmap()
-    saveBitMap.CreateCompatibleBitmap(mfcDC, w,h)
+    saveBitMap.CreateCompatibleBitmap(mfcDC, w, h)
     saveDC.SelectObject(saveBitMap)
     saveDC.BitBlt((0, 0), (w, h),  mfcDC,  (l, t),  win32con.SRCCOPY)
     
@@ -38,7 +38,8 @@ def get_screenshot():
         'RGB',
         (bmpinfo['bmWidth'], bmpinfo['bmHeight']),
         bmpstr, 'raw', 'BGRX', 0, 1)
-    
+
+    #saveBitMap.SaveBitmapFile(mfcDC, 'temp1.jpg')
     # Free Resources
     saveDC.DeleteDC()
     mfcDC.DeleteDC()
@@ -149,7 +150,7 @@ while True:
 
     update_keyboard(sessionid)
     #print('updated %s times' % i)
-    sleep(0.01)
+    sleep(0.1)
     i+=1
 
 
