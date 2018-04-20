@@ -1,24 +1,25 @@
 # RazerLight
-> Python script to make razer keyboard to reflect the colors being shown in your monitors
+> * It's like Ambilight for rgb keyboard
+> * Python script to make razer keyboard to reflect the colors being shown in your monitors
+> * uses the Chroma SDK REST API
 
 
-It's like Ambilight
 
-![](header.png)
+
 
 ## Installation
 
-In your Razer Synapse application, you need to allow Apps to wrok
-1- Open Synapse
-2- Go to Chroma Menu
-3- Go to Apps sub menu
-4- confirm "Chroma Apps" is checked
-5- Run
+In your Razer Synapse application, you need to allow Apps to work
+
+1. Open Synapse
+2. Go to Chroma Menu
+3. Go to Apps sub menu
+4. confirm "Chroma Apps" is checked
+5. Run
 
 Just install the required packages and run the script, it will keep running until you stop it
-```sh
+```python
 python razerlight.py
-
 ```
 
 Prerequisites
@@ -42,7 +43,7 @@ Gonzalo Piotti – [@gonzapiotti](https://twitter.com/gonzapiotti) – gonzalopi
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it (<https://github.com/gpiotti/razerlight/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
