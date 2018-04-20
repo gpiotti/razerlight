@@ -144,7 +144,9 @@ def build_keys(color_means):
 
 i=0
 sessionid = get_session()
+print('Running...(hit CTRL+C to stop)')
 while True:
+
     update_keyboard(sessionid)
     #print('updated %s times' % i)
     sleep(0.01)
