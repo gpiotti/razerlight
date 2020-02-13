@@ -15,7 +15,7 @@ In your Razer Synapse application, you need to allow Apps to work
 2. Go to Chroma Menu
 3. Go to Apps sub menu
 4. confirm "Chroma Apps" is checked
-5. Run
+5. Run!
 
 Just install the required packages and run the script, it will keep running until you stop it
 ```python
